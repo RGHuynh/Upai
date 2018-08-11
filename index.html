@@ -6,14 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 
+  <link rel="stylesheet" href="/app/assets/styles.css">
+  <link rel="stylesheet" href="/app/assets/bootstrap.css">
   <script src="/node_modules/angular/angular.min.js"></script>
   <script src="/node_modules/angular-route/angular-route.min.js"></script>
   <script src="/app/app.js"></script>
   <script src="/app/page/homepage/homepage.component.js"></script>
   <script src="/app/components/logo/logo.component.js"></script>
+  <script src="/app/components/card/card.component.js"></script>
+  <script src="/app/components/intro/intro.component.js"></script>
+  <script src="/app/services/http.service.js"></script>
   <script src="/app/app.routes.js"></script>
 </head>
+
 <body ng-app="upaiApp">
+  <div class="header-color"></div>
   <ng-view></ng-view>
+  <div class="footer-color"></div>
 </body>
+
 </html>
