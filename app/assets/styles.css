@@ -1,0 +1,30 @@
+body {
+  background: #FAFAFA !important;
+}
+
+.card-header {
+  background: white !important;
+}
+
+.site-heading {
+  margin-top: 4vh;
+}
+
+.wrapper {
+  margin: auto;
+  padding: 18px;
+}
+
+.post-preview {
+  display: block;
+  margin: auto;
+  height: 65vh;
+  padding-top: 20vh;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.header-color, .footer-color {
+  height: 16px;
+  background: #574930;
+}
