@@ -1,6 +1,6 @@
 (function(){
   var config = {
-    template: '/app/page/homepage/homepage.component.html'
+    templateUrl: '/app/page/homepage/homepage.component.html'
   }
   
   angular
